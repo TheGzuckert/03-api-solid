@@ -41,7 +41,7 @@
 
 ### Docker Comentarios:
 Para criar o container basta executar o  seguinte comando
-docker-compose up -d
+`docker-compose up -d`
 
 E para conseguir ver as tabelas no dando usando prisma execute o seguinte comando
-npx prisma studio
+`npx prisma studio`
