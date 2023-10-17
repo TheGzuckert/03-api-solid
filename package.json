@@ -1,0 +1,30 @@
+{
+  "name": "03-api-solid",
+  "version": "1.0.0",
+  "description": "### RFs (Requesitos Funcionais)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node biuld/server.js",
+    "biuld": "tsup src --out-dir biuld"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "prisma": "5.4.2",
+    "tsup": "^7.2.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "5.4.2",
+    "@rocketseat/eslint-config": "2.1.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.51.0",
+    "fastify": "^4.24.2",
+    "zod": "3.22.4"
+  }
+}
