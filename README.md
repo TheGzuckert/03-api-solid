@@ -39,13 +39,21 @@
 - docker
 
 
-### Docker Comentarios:
-`docker-compose up -d`
+### Docker:
 Para criar o container basta executar o  seguinte comando
 
+`docker-compose up -d`
+
+### Prisma:
+
 Para gerar os schemas do prisma execute o seguinte comando
+
 `npx prisma generate`
 
 E para conseguir ver as tabelas no dando usando prisma execute o seguinte comando
 
 `npx prisma studio`
+
+Para criar uma migration em desenvolviemnto
+
+`npx prisma migrate dev`
