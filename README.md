@@ -30,30 +30,27 @@
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 
-### Tecnologias usadas:
-
-- Prisma
-- Zod
-- Fastify
-- dotEnv
-- docker
-
-
-### Docker:
+### Criando conteiner do banco de dados postgres:
 Para criar o container basta executar o  seguinte comando
 
 `docker-compose up -d`
 
-### Prisma:
 
+### Criando as tabelas no banco de dados:
 Para gerar os schemas do prisma execute o seguinte comando
 
 `npx prisma generate`
 
+### Visualizando as tabelas no banco de dados:
 E para conseguir ver as tabelas no dando usando prisma execute o seguinte comando
 
 `npx prisma studio`
 
-Para criar uma migration em desenvolviemnto
+### Rodando Testes:
+Para rodar os testes execute o seguinte comando
 
-`npx prisma migrate dev`
+`npm run test`
+
+## E em whatmode execute o seguinte comando:
+
+`npm test:watch`
