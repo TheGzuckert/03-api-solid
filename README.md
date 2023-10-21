@@ -30,15 +30,6 @@
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 
-### Tecnologias usadas:
-
-- Prisma
-- Zod
-- Fastify
-- dotEnv
-- docker
-
-
 ### Criando conteiner do banco de dados postgres:
 Para criar o container basta executar o  seguinte comando
 
