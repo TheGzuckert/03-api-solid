@@ -39,13 +39,27 @@
 - docker
 
 
-### Docker Comentarios:
-`docker-compose up -d`
+### Criando conteiner do banco de dados postgres:
 Para criar o container basta executar o  seguinte comando
 
+`docker-compose up -d`
+
+
+### Criando as tabelas no banco de dados:
 Para gerar os schemas do prisma execute o seguinte comando
+
 `npx prisma generate`
 
+### Visualizando as tabelas no banco de dados:
 E para conseguir ver as tabelas no dando usando prisma execute o seguinte comando
 
 `npx prisma studio`
+
+### Rodando Testes:
+Para rodar os testes execute o seguinte comando
+
+`npm run test`
+
+## E em whatmode execute o seguinte comando:
+
+`npm test:watch`
