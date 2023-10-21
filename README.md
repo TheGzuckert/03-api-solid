@@ -51,6 +51,6 @@ Para rodar os testes execute o seguinte comando
 
 `npm run test`
 
-### E em WatchMo execute o seguinte comando:
+### E em WatchMode execute o seguinte comando:
 
 `npm test:watch`
